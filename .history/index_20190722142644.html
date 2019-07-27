@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi primer Pagina</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#Introduccion">INTRODUCCION</a></li>
+            <li><a href="#Somos">¿QUIENES SOMOS?</a></li>
+            <li><a href="#Historia">HISTORIA</a></li>
+            <li><a href="#Trabajo">TRABAJA CON NOSOTROS</a></li>
+            <li><a href="#Contactos">CONTACTATE CON NOSOTROS</a></li>
+        </ul>
+    </nav>
+    <header>
+        
+        <img src="img/header.jpg" alt="header">
+        <h1>BIENVENIDO A RED LINK</h1>
+        <p>Empresa que provee servicios informáticos de alta calidad, seguridad y confiabilidad de procesamiento</p>
+       
+    </header>
+
+    <section id="Introduccion">
+        <h2>Video Introductorio Red Link 30 años</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E547EzEdmy8" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+        picture-in-picture" allowfullscreen></iframe>
+    </section>
+   <section>
+       <article id="Somos">
+            <h2>Nosotros somos</h2>
+            <img src="img/img_1.jpg" alt="personas">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Doloribus, ut dolorum incidunt nam cumque deleniti nesciunt voluptate. 
+            Est omnis error, quam magnam rem delectus nam.
+            </p>
+            <input type="button" value="Seguir leyendo"></input>
+       </article>
+       <br/>
+       <br/>
+   </section>
+   <section>
+       <article id="Historia">
+            <h2>La historia de Red Link</h2>
+            <img src="img/img_2.jpg" alt="historia">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Mollitia expedita autem nesciunt. Atque necessitatibus maxime, 
+            tenetur vitae sed esse debitis, omnis rem in ut voluptatem eius nostrum delectus 
+            autem ipsam. Harum ut animi necessitatibus facere laborum ipsum quae alias fugiat.</p>
+            <input type="button" value="Seguir leyendo">
+       </article>
+       <br/>
+       <br/>
+   </section>
+   <Section id="Trabajo">
+       <article>
+            <h2>Trabaja con nosotros</h2>
+            <img src="img/img_3.jpg" alt="trabaja con nosotros">
+            <fieldset class="form-group">
+                <legend>Subir curriculum vitae</legend>
+                <input type="file" name="archivo" />
+             </fieldset>
+       </article>
+       <br/>
+       <br/>
+   </Section>
+   <section>
+       <article id="Contactos">
+            <h2>Contactate con nosotros</h2>
+            <img src="img/img_4.jpg" alt="contactos">
+            
+            <form action="" method="POST">
+                <fieldset class="form-group">
+                    <legend>Envíanos tu consulta, la responderemos a la brevedad</legend>
+                    <br/>
+                    <br/>
+                    <label for="nombre">Nombre (requerido)</label>
+                    <input type="text" name="nombre" required>
+                    <br/>
+                    <br/>
+                    <label for="email">Correo electrónico (requerido)</label>
+                    <input type="email" name="email" placeholder="Usuario@mail.com" required >
+                    <br/>
+                    <br/>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{8}" >
+                    <br/>
+                    <br/>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <br/>
+                    <br/>
+                </fieldset>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="button" class="btn btn-cancel">Cancelar</button>
+            </form>
+       </article>
+       <br/>
+       <br/>
+   </section>
+
+   <footer> &copy; Todos los derechos reservados</footer>
+</body>
+</html>

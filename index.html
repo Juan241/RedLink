@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Red Link</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href = "https://file.myfontastic.com/SfSAqWXRoXtmRThZRdyUDT/icons.css" rel = "hoja de estilo">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+
+    <nav id="nav">
+        <img src="img/header.jpg" alt="header">
+        <ul class="header">
+            <li id="inicio"><a href="index.html">INICIO</a></li>
+            <li><a href="#Introduccion">INTRODUCCION</a></li>
+            <li><a href="#Somos">¿QUIENES SOMOS?</a></li>   
+            <li><a href="#Historia">HISTORIA</a></li>
+            <li><a href="#Trabajo">TRABAJA CON NOSOTROS</a></li>
+            <li><a href="#Contactos">CONTACTANOS</a></li>
+        </ul>
+        
+        
+        
+        
+
+    </nav>
+    <header>
+        <h1 id="titulo-principal">BIENVENIDO A LA EMPRESA RED LINK</h1>
+        <p id="subtitulo">Empresa que provee servicios informáticos de alta calidad, seguridad y confiabilidad de procesamiento</p>
+        <img src="img/banner.jpg" alt="banner">
+    </header>
+
+    <section id="seccion-Introduccion">
+        <article id="Introduccion">
+            <h2>Video Introductorio Red Link 30 años</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E547EzEdmy8" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+        </article>
+        
+    </section>
+   <section id="seccion-somos">
+       <article id="Somos">
+            <h2>Nosotros somos</h2>
+            <div class="contenedor-img">
+                <img src="img/img_1.jpg" alt="personas">
+            </div>
+            <div class="contenedor-p">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Doloribus, ut dolorum incidunt nam cumque deleniti nesciunt voluptate. 
+                 Est omnis error, quam magnam rem delectus nam.
+                </p>
+            </div>
+            
+            <input type="button" value="Seguir leyendo" class="btn btn-primary"></input>
+       </article>
+       <br/>
+       <br/>
+   </section>
+   <section id="seccion-Historia">
+       <article id="Historia">
+            <h2>La historia de Red Link</h2>
+            <div class="contenedor-img">
+                <img src="img/img_2.jpg" alt="historia">
+            </div>
+            <div class="contenedor-p">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Doloribus, ut dolorum incidunt nam cumque deleniti nesciunt voluptate. 
+                Est omnis error, quam magnam rem delectus nam.
+                </p>
+            </div>
+            <input type="button" value="Seguir leyendo" class="btn btn-primary"></input>
+       </article>
+       <br/>
+       <br/>
+   </section>
+   <Section id="seccion-Trabajo">
+       <article id="Trabajo">
+            <h2>Trabaja con nosotros</h2>
+            <img src="img/img_3.jpg" alt="trabaja con nosotros">
+            <fieldset class="form-group">
+                <legend>Subir curriculum vitae</legend>
+                <input type="file" name="archivo" class="form-control"/>
+             </fieldset>
+       </article>
+       <br/>
+       <br/>
+   </Section>
+   <section id="seccion-Contactos">
+       <article id="Contactos">
+            <h2>Contactate con nosotros</h2>
+            <img src="img/img_4.jpg" alt="contactos">
+            
+            <form action="" method="POST">
+                <fieldset class="form-group">
+                    <!-- <legend>Envíanos tu consulta, la responderemos a la brevedad</legend> -->
+                    <h3>Envíanos tu consulta, la responderemos a la brevedad</h3>
+                    <br>
+                    <label for="nombre">Nombre (requerido)</label>
+                    <input type="text" name="nombre" class="form-control" required>
+                    <br>
+                    <label for="email">Correo electrónico (requerido)</label>
+                    <input type="email" name="email" placeholder="Usuario@mail.com" class="form-control" required >
+                    <br>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" class="form-control" pattern="[0-9]{3}-[0-9]{8}" >
+                    <br>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
+                </fieldset>
+                <div class="boton">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+       </article>
+       <br/>
+       <br/>
+   </section>
+   <footer> &copy; Todos los derechos reservados</footer>
+   <!-- <span class="icon-menu" id="btn-menu"></span> -->
+   <button id="btn-menu"><img src="img/header.jpg" alt="icono"></button>
+   <script src="index.js"></script>
+</body>
+</html>
